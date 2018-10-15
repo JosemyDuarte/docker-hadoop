@@ -1,0 +1,22 @@
+version: '3'
+services:
+  hadoop:
+    
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: parrotstream/hadoop:latest
+    external_links:
+    - zookeeper
+    ports:
+    - 9870:9870
+    - 9864:9864
+    - 8020:8020
+    - 8042:8042
+    - 8088:8088
+    - 8188:8188
+    - 19888:19888
+networks:
+  default:
+    external:
+      name: parrot_default
