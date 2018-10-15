@@ -32,6 +32,10 @@ While the Hadoop Docker container is running, you can always get the urls' list 
 
 included in the GitHub source repository.
 
+### Available tags:
+
+- Apache Hadoop 2.6.0-cdh5.15.1 ([2.6.0-cdh5.15.1](https://github.com/JosemyDuarte/docker-hadoop/blob/2.6.0-cdh5.15.1/Dockerfile))
+
 ### Copyright
 
 This image is based on the work of [Parrot Stream](https://github.com/parrot-stream/docker-hadoop/)
